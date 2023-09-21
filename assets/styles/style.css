@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lexend+Deca&display=swap');
+:root {
+    --color-1 : #150E28;
+    --color-2 : #903AFF;
+    --color-3 : #D434FE;
+}
+* {
+    color: #FFF;
+    font-family: 'Lexend Deca', sans-serif;
+}
+body 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: var(--color-1);
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    width: 172px;
+    height: 53px;
+    flex-shrink: 0;
+    outline: none;
+    border: none;
+    color: #FFF;
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* span */
+.color-3 {
+    color: var(--color-3);
+}
+/* NavBar */
+nav {
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+.nav-header {
+    color: #FFF;
+    font-family: 'Bree Serif', serif;
+font-family: 'Lexend Deca', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.nav-link {
+    padding: 20px;
+    color: #FFF;
+    font-family: 'Bree Serif', serif;
+font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Hero Section */
+.hero-section {
+    padding: 0 0 0 5%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    z-index: 1000;
+}
+.hero-top {
+    position: relative;
+    text-align: right;
+    color: #FFF;
+    font-family: 'Bree Serif', serif;
+font-family: 'Lexend Deca', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 36px;
+    margin-right: 3%;
+}
+.hero-flex {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-text {
+    width: 55%;
+    text-align: left;
+}
+.hero-header h1 {
+    color: #FFF;
+    font-size: 56px;
+    margin: 0;
+}
+.hero-images {
+    width: 50%;
+    margin: 0;
+    justify-content: end;
+}
+.hero-man {
+    position: relative;
+    background-image: url("../images/hero-man.png");
+    background-position: center;
+    background-size: cover;
+    width: 428px;
+    height: 400px;
+}
+.hero-image {
+    background-image: url(../images/Image\ 1.png);
+    background-size: contain;
+    position: absolute;
+    width: 337px;
+    height: 330px;
+    left: 50px;
+}
+.hero-sub {
+    color: #FFF;
+    font-family: 'Bree Serif', serif;
+font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 30px 0;
+}
+.time {
+    padding: 20px 0;
+    color: #FFF;
+    font-size: 30px;
+}
+.small {
+    font-size: 7px;
+    padding-right: 20px;
+}
+.curve {
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+/* sections */
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 5%;
+    gap: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.section h1{
+    margin: 0;
+}
