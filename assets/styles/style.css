@@ -12,9 +12,10 @@ body
 {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     background: var(--color-1);
     position: relative;
+    max-width : 1440px;
 }
 a {
     text-decoration: none;
@@ -38,6 +39,10 @@ a {
 .color-3 {
     color: var(--color-3);
 }
+.bold {
+    font-weight : 700;
+    letter-spacing: 0.11rem;
+}
 /* NavBar */
 nav {
     padding: 0% 5%;
@@ -45,6 +50,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    height : 100px;
 }
 .nav-header {
     color: #FFF;
@@ -151,6 +157,13 @@ font-family: 'Lexend Deca', sans-serif;
     gap: 30px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
+.section img {
+    max-width: 50%;
+}
 .section h1{
     margin: 0;
+}
+/* FAQs */
+.FAQ {
+    padding: 80px 5% 0 5%;
 }
